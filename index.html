@@ -1,0 +1,326 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Azure</title>
+<link rel="shortcut icon" href="https://azure-ba.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://azure-ba.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://azure-ba.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Azure - Atom Feed" href="https://azure-ba.github.io/atom.xml">
+
+    
+
+  <meta name="description" content="温故而知新" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+    <a href="https://azure-ba.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      Azure
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      温故而知新
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://azure-ba.github.io/images/avatar.png?v=1582447885036" alt="Azure" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/dian-nao-fu-wu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          电脑服务
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+	
+		项目
+		价格
+		描述
+	
+	
+		系统安装
+		$0.0
+		Win10&nbsp;/&nbsp;Win7&nbsp;/&nbsp;WinXp&nbsp;/&nbsp;Centos&nbsp;/&nbsp;WinServer2...
+      </div>
+      <a href="https://azure-ba.github.io/post/dian-nao-fu-wu/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/an-zhuo-ban-yu-yin-bian-sheng-qi-da-shu-yi-miao-bian-luo-li/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          安卓版语音变声器，大叔一秒变萝莉！
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        除了能在软件中变音，
+我们还可以在微信、QQ、王者荣耀中变音。
+
+我们来看看大家最关心的微信怎么变音。
+打开软件后。
+跟着提示把需要的权限打开。
+确保一键开启悬浮窗选项是打开的。
+
+打开微信，
+在聊天窗口大家可以看到有个悬浮窗，
+我们发语音...
+      </div>
+      <a href="https://azure-ba.github.io/post/an-zhuo-ban-yu-yin-bian-sheng-qi-da-shu-yi-miao-bian-luo-li/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/lian-xiang-guan-fang-gong-ju-guan-bi-win10-defenderguan-bi-win10-zi-dong-geng-xin/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          联想官方工具 关闭Win10 Defender、关闭Win10自动更新
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        之前在网上找了一款类似功能的工具，
+今天重装系统后，
+发现不能用了，
+在网上寻找了一天，
+终于找到一个稳定有效的关闭Win10Defender、关闭Win10自动更新的工具，
+这是从联想官方网站的工具库里面找到的
+下载路线①  (提取码：l...
+      </div>
+      <a href="https://azure-ba.github.io/post/lian-xiang-guan-fang-gong-ju-guan-bi-win10-defenderguan-bi-win10-zi-dong-geng-xin/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/mian-fei-fan-qiang-app/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          免费翻墙app
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        下载路线①  (提取码：8j6h)
+---来源网络(联系删除)---
+...
+      </div>
+      <a href="https://azure-ba.github.io/post/mian-fei-fan-qiang-app/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/zui-jin-dou-yin-shang-hen-huo-de-bi-zhi-da-bao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          最近抖音上很火的壁纸打包
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+花样很多 ，有你喜欢的！
+下载路线①  (提取码：tvx9)
+---来源网络(联系删除)---
+...
+      </div>
+      <a href="https://azure-ba.github.io/post/zui-jin-dou-yin-shang-hen-huo-de-bi-zhi-da-bao/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/teamviewer-90224135-qi-ye-lu-se-te-bie-ban/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          TeamViewer 9.0.224135 企业绿色特别版
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-20</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+
+修改介绍
+基于官方安装版绿化，去程序效验，支持保存设置
+解锁为企业许可证通道信息，许可证永不提示过期
+集成更换ID工具TVTools AlterID v2.0，满足需求
+硬核去掉广告弹窗（即关闭后的订阅免费期刊弹窗）
+默认取消启动自动显...
+      </div>
+      <a href="https://azure-ba.github.io/post/teamviewer-90224135-qi-ye-lu-se-te-bie-ban/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/bai-sha-mian-fei-shou-ji-hao-zai-xian-jie-shou-yan-zheng-ma-ruan-jian-v1021/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          白沙免费手机号在线接受验证码软件V1.0.2.1
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-17</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        2020.2.17日更新日志(版本号：V1.0.2.1)：
+更新内容：
+1、解决线路一维护获取手机号码失败！
+
+2020.2.17日更新日志(版本号：V1.0.2)：
+更新内容：
+1、增加多个地区号码：中国号码、英国号码、美国号码、加拿大号...
+      </div>
+      <a href="https://azure-ba.github.io/post/bai-sha-mian-fei-shou-ji-hao-zai-xian-jie-shou-yan-zheng-ma-ruan-jian-v1021/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/pc-wang-yi-yun-yin-le-hui-se-ge-qu-jie-suo/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          PC网易云音乐灰色歌曲解锁
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        周杰伦下架的歌曲都可以听
+操作也非常方便 请按下图步骤进行即可：
+勾选自动使用配置脚本，输入地址：https://hyczby.com/proxy.pac （如果地址失效了可以输入地址：https://wy.ydlrqx.com/proxy...
+      </div>
+      <a href="https://azure-ba.github.io/post/pc-wang-yi-yun-yin-le-hui-se-ge-qu-jie-suo/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/an-zhuo-dian-shi-he-zi-ying-yong-xie-zi-tv-v140/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          安卓电视盒子应用 叶子TV v1.4.0
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-06</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        叶子TV，智能电视及机顶盒影视网络电视APP，无广告，所有影视资源采集网络片源并自动检索分类显示，可以免费观看院线上映大片、付费电影、HD高清资源，此外具有网络电视直播，大量港台境外直播频道。
+
+
+
+
+by 耗子
+免注册登陆，免费观看所有内...
+      </div>
+      <a href="https://azure-ba.github.io/post/an-zhuo-dian-shi-he-zi-ying-yong-xie-zi-tv-v140/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://azure-ba.github.io/post/ling-ji-chu-ccna-wang-luo-an-quan-zi-yuan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          零基础 CCNA + 网络安全---资源
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-01</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        下载路线①
+提取码：pgt8
+
+      </div>
+      <a href="https://azure-ba.github.io/post/ling-ji-chu-ccna-wang-luo-an-quan-zi-yuan/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://azure-ba.github.io/media/scripts/main.js"></script>
+</body>
+
+</html>
