@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-23T10:00:35.836Z</updated>
+    <updated>2020-02-23T10:07:05.729Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://azure-ba.github.io/images/avatar.png</logo>
     <icon>https://azure-ba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Azure</rights>
-    <entry>
-        <title type="html"><![CDATA[测试打赏]]></title>
-        <id>https://azure-ba.github.io/post/ce-shi-da-shang/</id>
-        <link href="https://azure-ba.github.io/post/ce-shi-da-shang/">
-        </link>
-        <updated>2020-02-23T09:21:29.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[安卓版语音变声器，大叔一秒变萝莉！]]></title>
         <id>https://azure-ba.github.io/post/an-zhuo-ban-yu-yin-bian-sheng-qi-da-shu-yi-miao-bian-luo-li/</id>
@@ -44,5 +37,12 @@
         <link href="https://azure-ba.github.io/post/zui-jin-dou-yin-shang-hen-huo-de-bi-zhi-da-bao/">
         </link>
         <updated>2020-02-23T08:34:15.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TeamViewer 9.0.224135 企业绿色特别版]]></title>
+        <id>https://azure-ba.github.io/post/teamviewer-90224135-qi-ye-lu-se-te-bie-ban/</id>
+        <link href="https://azure-ba.github.io/post/teamviewer-90224135-qi-ye-lu-se-te-bie-ban/">
+        </link>
+        <updated>2020-02-20T08:36:46.000Z</updated>
     </entry>
 </feed>
