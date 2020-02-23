@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-23T09:00:02.240Z</updated>
+    <updated>2020-02-23T09:07:43.966Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>人生旅途</subtitle>
     <logo>https://azure-ba.github.io/images/avatar.png</logo>
     <icon>https://azure-ba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Azure</rights>
