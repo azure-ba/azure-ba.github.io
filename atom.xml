@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-23T10:48:46.654Z</updated>
+    <updated>2020-02-24T05:20:39.431Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://azure-ba.github.io/images/avatar.png</logo>
     <icon>https://azure-ba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Azure</rights>
+    <entry>
+        <title type="html"><![CDATA[淘宝上的组装电脑为什么这么便宜？]]></title>
+        <id>https://azure-ba.github.io/post/tao-bao-shang-de-zu-zhuang-dian-nao-wei-shi-me-zhe-me-bian-yi/</id>
+        <link href="https://azure-ba.github.io/post/tao-bao-shang-de-zu-zhuang-dian-nao-wei-shi-me-zhe-me-bian-yi/">
+        </link>
+        <updated>2020-02-24T04:21:33.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不限速百度云网盘，杠杠滴]]></title>
         <id>https://azure-ba.github.io/post/bu-xian-su-bai-du-yun-wang-pan-gang-gang-di/</id>
@@ -37,12 +44,5 @@
         <link href="https://azure-ba.github.io/post/mian-fei-fan-qiang-app/">
         </link>
         <updated>2020-02-23T08:35:50.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[最近抖音上很火的壁纸打包]]></title>
-        <id>https://azure-ba.github.io/post/zui-jin-dou-yin-shang-hen-huo-de-bi-zhi-da-bao/</id>
-        <link href="https://azure-ba.github.io/post/zui-jin-dou-yin-shang-hen-huo-de-bi-zhi-da-bao/">
-        </link>
-        <updated>2020-02-23T08:34:15.000Z</updated>
     </entry>
 </feed>
