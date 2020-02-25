@@ -15,32 +15,16 @@
     
 
   <meta name="description" content="
-  First name: 
-  Last name: 
-  
-
-
-
-show message
-
-// 在js中写入
-function showMessage(event){
-console.log(event);
-alert(&#39;Hell..." />
+        function userCheck() {
+            //申明变量获取输入的值
+            var username = document.form1.username.value;
+     ..." />
   <meta property="og:title" content="test - Azure">
   <meta property="og:description" content="
-  First name: 
-  Last name: 
-  
-
-
-
-show message
-
-// 在js中写入
-function showMessage(event){
-console.log(event);
-alert(&#39;Hell..." />
+        function userCheck() {
+            //申明变量获取输入的值
+            var username = document.form1.username.value;
+     ..." />
   <meta property="og:type" content="articles">
   <meta property="og:url" content="https://azure-ba.github.io/post/test/" />
   <meta property="og:image" content="https://azure-ba.github.io/images/avatar.png">
@@ -48,18 +32,10 @@ alert(&#39;Hell..." />
   <meta property="og:image:width" content="1200">
   <meta name="twitter:title" content="test - Azure">
   <meta name="twitter:description" content="
-  First name: 
-  Last name: 
-  
-
-
-
-show message
-
-// 在js中写入
-function showMessage(event){
-console.log(event);
-alert(&#39;Hell...">
+        function userCheck() {
+            //申明变量获取输入的值
+            var username = document.form1.username.value;
+     ...">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://azure-ba.github.io/post/test/">
 
@@ -87,21 +63,57 @@ alert(&#39;Hell...">
           
         </div>
         <div class="markdown mb-8" v-pre>
-          <form action="form_action.asp" method="get">
-  First name: <input type="text" name="fname" />
-  Last name: <input type="text" name="lname" />
-  <input type="submit" value="Submit" />
+          <script>
+        function userCheck() {
+            //申明变量获取输入的值
+            var username = document.form1.username.value;
+            var password = document.form1.password.value;
+            if(username=="root") {
+                if(password=="123456"){
+                    window.alert("进入");
+                }
+            }else{
+                window.alert("用户名或密码错误Error");
+            }
+        }
+    </script>
+<form method="post" name="form1" action="servlet/LoginServlets">
+        <center>
+            <p>登录</p>
+            <table width="225" border="1" bordercolor="#00FF00">
+            <tr>
+                <td width="64"><div align="center">名:</div></td>
+                <td colspan="2">
+                    <div align="left">
+                        <input type="text" name="username" title="请输入登陆名"  style="background:#e8e8e8;"/>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center">码:</div>
+                </td>
+                <td colspan="2">
+                    <div align="left">
+                        <input type="password" name="password" size="21" title="请输入密码" style="background:#e8e8e8;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div align="center">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="button" type="button" onClick="userCheck()" value="登陆" />
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <input name="reset" type="reset" onClick="quxiao()" value="取消" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </center>
 </form>
-<!-- 直接在html标签中写入html事件处理程序 -->
-<input type="button" value="Click Me" onclick="alert('clicked')">
-<button onclick="showMessage(event)">show message</button>
-<script>
-// 在js中写入
-function showMessage(event){
-console.log(event);
-alert('Hello world');
-}
-</script>
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
         <div class="flex items-center">
