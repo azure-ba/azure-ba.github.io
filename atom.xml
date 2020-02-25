@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-25T07:59:08.073Z</updated>
+    <updated>2020-02-25T09:09:51.401Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://azure-ba.github.io/images/avatar.png</logo>
     <icon>https://azure-ba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Azure</rights>
+    <entry>
+        <title type="html"><![CDATA[大显卡大显存更强？那是你中了商家的计]]></title>
+        <id>https://azure-ba.github.io/post/da-xian-qia-da-xian-cun-geng-qiang/</id>
+        <link href="https://azure-ba.github.io/post/da-xian-qia-da-xian-cun-geng-qiang/">
+        </link>
+        <updated>2020-02-25T08:27:37.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[又蓝屏了：Win7 系统进入蓝屏死机状态，太不让人省心]]></title>
         <id>https://azure-ba.github.io/post/you-lan-ping-liao-win7-xi-tong-jin-ru-lan-ping-si-ji-zhuang-tai-tai-bu-rang-ren-sheng-xin/</id>
@@ -37,12 +44,5 @@
         <link href="https://azure-ba.github.io/post/bu-xian-su-bai-du-yun-wang-pan-gang-gang-di/">
         </link>
         <updated>2020-02-23T10:40:53.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓版语音变声器，大叔一秒变萝莉！]]></title>
-        <id>https://azure-ba.github.io/post/an-zhuo-ban-yu-yin-bian-sheng-qi-da-shu-yi-miao-bian-luo-li/</id>
-        <link href="https://azure-ba.github.io/post/an-zhuo-ban-yu-yin-bian-sheng-qi-da-shu-yi-miao-bian-luo-li/">
-        </link>
-        <updated>2020-02-23T08:39:31.000Z</updated>
     </entry>
 </feed>
