@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-26T10:20:03.971Z</updated>
+    <updated>2020-02-26T10:42:35.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -25,7 +25,7 @@
         <updated>2020-02-25T13:01:01.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[大显卡大显存更强？那是你中了商家的计]]></title>
+        <title type="html"><![CDATA[大显卡大显存更好？]]></title>
         <id>https://azure-ba.github.io/post/da-xian-qia-da-xian-cun-geng-qiang/</id>
         <link href="https://azure-ba.github.io/post/da-xian-qia-da-xian-cun-geng-qiang/">
         </link>
