@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-27T16:53:26.374Z</updated>
+    <updated>2020-02-27T16:59:43.086Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -12,10 +12,10 @@
     <rights>All rights reserved 2020, Azure</rights>
     <entry>
         <title type="html"><![CDATA[水星路由器调试]]></title>
-        <id>https://azure-ba.github.io/post/test/</id>
-        <link href="https://azure-ba.github.io/post/test/">
+        <id>https://azure-ba.github.io/post/shui-xing-lu-you-qi-diao-shi/</id>
+        <link href="https://azure-ba.github.io/post/shui-xing-lu-you-qi-diao-shi/">
         </link>
-        <updated>2020-02-27T09:48:52.000Z</updated>
+        <updated>2020-02-27T16:59:11.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Jetbrains系列产品2019.3.3最新激活方法[持续更新]]]></title>
