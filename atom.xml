@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-27T12:53:37.549Z</updated>
+    <updated>2020-02-27T16:13:53.196Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://azure-ba.github.io/images/avatar.png</logo>
     <icon>https://azure-ba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Azure</rights>
+    <entry>
+        <title type="html"><![CDATA[水星路由器调试]]></title>
+        <id>https://azure-ba.github.io/post/test/</id>
+        <link href="https://azure-ba.github.io/post/test/">
+        </link>
+        <updated>2020-02-27T09:48:52.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jetbrains系列产品2019.3.3最新激活方法[持续更新]]]></title>
         <id>https://azure-ba.github.io/post/intellij-idea-po-jie-cheng-gong-lu-bai-fen-bai/</id>
@@ -37,12 +44,5 @@
         <link href="https://azure-ba.github.io/post/tao-bao-shang-de-zu-zhuang-dian-nao-wei-shi-me-zhe-me-bian-yi/">
         </link>
         <updated>2020-02-24T04:21:33.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不限速百度云网盘，杠杠滴]]></title>
-        <id>https://azure-ba.github.io/post/bu-xian-su-bai-du-yun-wang-pan-gang-gang-di/</id>
-        <link href="https://azure-ba.github.io/post/bu-xian-su-bai-du-yun-wang-pan-gang-gang-di/">
-        </link>
-        <updated>2020-02-23T10:40:53.000Z</updated>
     </entry>
 </feed>
