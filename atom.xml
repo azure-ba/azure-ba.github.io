@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azure-ba.github.io</id>
     <title>Azure</title>
-    <updated>2020-02-27T11:22:00.960Z</updated>
+    <updated>2020-02-27T11:33:14.189Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azure-ba.github.io"/>
     <link rel="self" href="https://azure-ba.github.io/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://azure-ba.github.io/images/avatar.png</logo>
     <icon>https://azure-ba.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Azure</rights>
-    <entry>
-        <title type="html"><![CDATA[水星路由器调试]]></title>
-        <id>https://azure-ba.github.io/post/test/</id>
-        <link href="https://azure-ba.github.io/post/test/">
-        </link>
-        <updated>2020-02-27T09:48:52.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[一款功能强大，免费的录屏软件]]></title>
         <id>https://azure-ba.github.io/post/yi-kuan-gong-neng-qiang-da-mian-fei-de-lu-ping-ruan-jian/</id>
@@ -44,5 +37,12 @@
         <link href="https://azure-ba.github.io/post/you-lan-ping-liao-win7-xi-tong-jin-ru-lan-ping-si-ji-zhuang-tai-tai-bu-rang-ren-sheng-xin/">
         </link>
         <updated>2020-02-25T07:01:43.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[淘宝上的组装电脑为什么这么便宜？]]></title>
+        <id>https://azure-ba.github.io/post/tao-bao-shang-de-zu-zhuang-dian-nao-wei-shi-me-zhe-me-bian-yi/</id>
+        <link href="https://azure-ba.github.io/post/tao-bao-shang-de-zu-zhuang-dian-nao-wei-shi-me-zhe-me-bian-yi/">
+        </link>
+        <updated>2020-02-24T04:21:33.000Z</updated>
     </entry>
 </feed>
